@@ -1,0 +1,34 @@
+{
+	"name": "Sourec Repethone",
+	"description": "بوت استخراج جلسات ريبيثون",
+	"logo": "https://telegra.ph/file/b37d19bc5de37534d66b5.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/Tofey17/Termx",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "حط توكن بوتك",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "حط الايبي هاش مالتك",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "حط الايبي ايدي",
+            "value": ""
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
